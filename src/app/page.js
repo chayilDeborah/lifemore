@@ -2,6 +2,7 @@ import Navbar from "./component/Navbar";
 import Image from "next/image";
 import people from './assets/people.svg';
 import AboutPreview from "./component/AboutPreview";
+import CommunityInfo from "./component/CommunityInfo";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             </div>
             <button className="bg-[#7537F6] hover:opacity-[0.699999988079071] absolute -mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button>
             <AboutPreview />
+            <CommunityInfo />
           </div>
         </div>
       </div>
