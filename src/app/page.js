@@ -4,6 +4,7 @@ import people from './assets/people.svg';
 import AboutPreview from "./component/AboutPreview";
 import CommunityInfo from "./component/CommunityInfo";
 import Membership from "./component/Membership";
+import Footer from "./component/Footer";
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
           </div>
         </div>
         <Membership />
+        <Footer />
       </div>
     </>
   );
