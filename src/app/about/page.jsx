@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../component/Navbar'
 import Image from 'next/image';
 import illustrate from '../assets/illustrate.svg' 
+import Team from '../component/Team';
 
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
           </div>
             </div>
           </div>
-
+          <Team />
         </div>
 
       </div>
