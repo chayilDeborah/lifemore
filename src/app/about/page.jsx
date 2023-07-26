@@ -3,6 +3,8 @@ import Navbar from '../component/Navbar'
 import Image from 'next/image';
 import illustrate from '../assets/illustrate.svg' 
 import Team from '../component/Team';
+import Membership from '../component/Membership';
+import Footer from '../component/Footer';
 
 const About = () => {
   return (
@@ -30,8 +32,9 @@ const About = () => {
           </div>
           <Team />
         </div>
-
       </div>
+      <Membership />
+      <Footer />
     </div>
     </>
   )
