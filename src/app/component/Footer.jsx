@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             </div>
             
-            <div className='text-center text-[#F1F1FA] text-[14px] mb-[66px] leading-[27px]'>Privacy Policy | ©2023 LifeMore Community | All rights reserved.</div>
+            <div className='text-center text-[#F1F1FA] lg:w-[100%] w-[70%] mx-auto lg:mx-[0px] text-[14px] mb-[66px] leading-[27px]'>Privacy Policy | ©2023 LifeMore Community | All rights reserved.</div>
         </div>
         <div>
 

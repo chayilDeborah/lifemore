@@ -36,7 +36,7 @@ const Membership = () => {
                   <div className="text-[#413972] text-[12px] leading-[19.5px] tracking-[1.3px] mb-[8px] lg:mb-[16px]  mt-[10px] lg:mt-[37px]">
                     REGISTER
                   </div>
-                  <div className="text-[36px] lg:text-[46px] leading-[42.8px] lg:leading-[52.8px] text-[#12084F] w-[255px] lg:w-[350px] mb-[8px] lg:mb-[16px]">
+                  <div className="text-[36px] lg:text-[46px] leading-[42.8px] lg:leading-[52.8px] text-[#12084F] w-[290px] lg:w-[350px] mb-[8px] lg:mb-[16px]">
                     Become a Member Today.
                   </div>
                   <div className="text-[16px] leading-[28.4px] lg:leading-[32.4px] text-[#413972] font-bold lg:w-[327px] mb-[12px] lg:mb-[26px]">
