@@ -13,7 +13,7 @@ const AboutPreview = () => {
           <div className="text-[#716B95] text-[12px] leading-[19.5px] tracking-[1.3px] lg:mt-[157px] mt-[130px] text-center lg:text-left mb-[15.69px] ">
             ABOUT LIFEMORE COMMUNITY
           </div>
-          <div className="text-[#22366C] text-[35px] text-center lg:text-left lg:text-[45px] leading-[48.8px] lg:leading-[52.8px] mb-[15.9px] lg:mb-[17.9px]">
+          <div className="text-[#22366C] text-[33px] text-center lg:text-left lg:text-[45px] leading-[48.8px] lg:leading-[52.8px] mb-[15.9px] lg:mb-[17.9px]">
             Connecting Minds, Empowering Growth.
           </div>
           <div className="text-[#22366C] text-[17px] leading-[32.4px] lg:w-[492px] mb-[15.28px] lg:mb-[28.58px]">

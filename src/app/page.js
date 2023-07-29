@@ -31,7 +31,7 @@ const Home = () => {
             <button className="bg-[#7537F6] hover:opacity-[0.699999988079071] mx-auto absolute lg:-mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button>
             </div>
             <AboutPreview />
-            {/* <CommunityInfo /> */}
+            <CommunityInfo />
             
           </div>
         </div>
