@@ -23,7 +23,7 @@ const Membership = () => {
 
   return (
     <>
-    <div className='flex justify-center bg-gradient-radial from-[#4C409A] to-[#12084F] mt-[100px]'>
+    <div className='flex justify-center bg-gradient-radial from-[#4C409A] to-[#12084F] mt-[150px]'>
       <div className='w-[80%]'>
         <div className='w-[100%] bg-[#FFF] shadow-3xl -mt-[70px] flex justify-center rounded-[5px]'>
             <div>
