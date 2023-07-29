@@ -38,7 +38,7 @@ const Footer = () => {
                         <Image src={facebook} alt='icon' className='ml-[20px]'/>
                         <Image src={linkedin} alt='icon' className='ml-[20px]'/>
                     </div>
-                    <div className='text-[#fff] text-[14px] mt-[25px] leading-[27px]'>info@lifemorecommunity.com</div>
+                    <div className='text-[#fff] text-[10px] mt-[25px] leading-[27px]'>info@lifemorecommunity.com</div>
                 </div>
             </div>
             </div>
