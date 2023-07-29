@@ -182,10 +182,10 @@ const Membership = () => {
               </div>
             </div>
           </div>
-          <div className="w-[100%] lg:h-[263px] lg:mb-[31px] bg-[#1c115c] mt-[32px] rounded-[5px] flex justify-center py-[50px]">
+          <div className="w-[100%] lg:h-[263px] lg:mb-[31px] bg-[#1c115c] mt-[32px] rounded-[5px] flex justify-center py-[25px] lg:py-[50px]">
             <div className="w-[90%] max-w-7xl grid grid-cols-2">
-              <div>
-                <div className="text-[30px] leading-[44.8px] text-[#FFFFFF] mb-[8.11px]">
+              <div className="w-[180px] lg:w-full">
+                <div className="text-[30px] leading-[40.8px] lg:leading-[44.8px] text-[#FFFFFF] mb-[8.11px]">
                   Join Our Community
                 </div>
                 <div className="text-[13px] text-[#fff] leading-[19.6px] lg:w-[317px] lg:mb-[69px]">
@@ -193,7 +193,7 @@ const Membership = () => {
                   our community.
                 </div>
               </div>
-              <div className="lg:flex justify-between">
+              <div className="lg:flex justify-between space-y-[10px] lg:space-y-[0px] ml-[40px] lg:ml-[0px]">
                 <div>
                   <div className="text-[#FFF] text-[44px] leading-[67.2px]">
                     50+

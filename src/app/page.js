@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
         <Membership />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

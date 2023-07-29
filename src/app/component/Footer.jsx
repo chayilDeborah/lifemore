@@ -9,7 +9,7 @@ const Footer = () => {
     <>
     <div className='bg-[#12084F] flex justify-center '>
         <div className='max-w-7xl w-[100%]'>
-            <div className='grid grid-cols-4 lg:mt-[80px] mb-[100px]'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 lg:mt-[80px] mb-[100px]'>
                 <div className='flex'>
                     <Image src={cyclonewhite} alt='icon' className='h-[80px]'/>
                     <div className='text-[#fff] text-[18px] ml-[4px] font-bold leading-[88px]'>LifemoreCommunity</div>
