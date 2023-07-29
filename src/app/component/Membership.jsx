@@ -29,7 +29,7 @@ const Membership = () => {
               <Image
                 src={color}
                 alt="icon"
-                className="ml-auto mt-[20px] lg:mr-[23px] lg:mt-[27px] lg:mb-[17px] mb-[10px] lg:w-[42px] lg:h-[41px] w-[32px] h-[31px]"
+                className="ml-auto mt-[20px] mr-[23px] lg:mt-[27px] lg:mb-[17px] mb-[10px] lg:w-[42px] lg:h-[41px] w-[32px] h-[31px]"
               />
               <div className="w-[100%] max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 ">
                 <div className="lg:mr-[80px] w-[90%] mx-auto lg:mx-[0px] lg:w-[100%]">
