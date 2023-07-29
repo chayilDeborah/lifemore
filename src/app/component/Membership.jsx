@@ -54,29 +54,29 @@ const Membership = () => {
         <div class="grid gap-6 mb-6 lg:grid-cols-2 w-[85%] mx-auto lg:mx-[0px] lg:w-[100%]">
         <div>
             <label for="first_name" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px]">First name *</label>
-            <input type="text" id="first_name" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[260px] lg:w-[200px] h-[46px]"  required/>
+            <input type="text" id="first_name" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]"  required/>
         </div>
         <div>
             <label for="last_name" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] ">Last name *</label>
-            <input type="text" id="last_name" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[260px] lg:w-[200px] h-[46px]" required/>
+            <input type="text" id="last_name" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]" required/>
         </div>  
         
     </div>
 <div className="w-[85%] mx-auto lg:mx-[0px] lg:w-[100%]">
     <div class="mb-6">
             <label for="phone" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] ">Phone number *</label>
-            <input type="tel" id="phone" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[260px] lg:w-[452px] h-[46px]" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+            <input type="tel" id="phone" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
     <div class="mb-6">
         <label for="email" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] ">Email address *</label>
-        <input type="email" id="email" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[260px] lg:w-[452px] h-[46px]"  required/>
+        <input type="email" id="email" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"  required/>
     </div> 
     <div class="mb-6">
     <label for="password" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "> Password *</label>
         <div className="relative  container">
       <input
         type={isPasswordVisible ? "text" : "password"}
-        className="w-[260px] lg:w-[452px] h-[46px] pl-[10px]
+        className="w-[273px] lg:w-[452px] h-[46px] pl-[10px]
         text-base
         border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9]"
       />
@@ -130,7 +130,7 @@ const Membership = () => {
           type={showConfirmPassword ? 'text' : 'password'}
           value={confirmPassword}
           onChange={handleConfirmPasswordChange}
-          className="w-[260px] lg:w-[452px] h-[46px] pl-[10px]
+          className="w-[273px] lg:w-[452px] h-[46px] pl-[10px]
           text-base
           border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9]"
         />
@@ -175,7 +175,7 @@ const Membership = () => {
         </span>
       </div>
     </div>
-    <button type="submit" className='bg-[#7537F6] text-[#fff] text-[14.56px] font-black leading-[18.216px] tracking-[1.159px] w-[260px] lg:w-[452px] hover:opacity-[0.699999988079071] rounded-[6px] mb-[100px] lg:mb-[200px] py-[15px]'>Sign up for Membership</button>
+    <button type="submit" className='bg-[#7537F6] text-[#fff] text-[14.56px] font-black leading-[18.216px] tracking-[1.159px] w-[273px] lg:w-[452px] hover:opacity-[0.699999988079071] rounded-[6px] mb-[100px] lg:mb-[200px] py-[15px]'>Sign up for Membership</button>
     </div>
                   </form>
                 </div>
