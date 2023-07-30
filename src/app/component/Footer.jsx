@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='bg-[#12084F] flex justify-center '>
         <div className='max-w-7xl w-[100%]'>
             <div className='lg:flex lg:w-[100%] w-[95%] mx-auto lg:justify-evenly'>
-                <div className='flex lg:w-[100%] w-[90%] mx-auto lg:mx-[0px] lg:mt-[80px] mt-[50px] lg:mb-[0px] mb-[20px] items-center'>
+                <div className='flex lg:justify-center lg:w-[100%] w-[90%] mx-auto lg:mx-[0px] lg:mt-[80px] mt-[50px] lg:mb-[0px] mb-[20px] items-center lg:items-start'>
                     <Image src={cyclonewhite} alt='icon' className='h-[80px]'/>
                     <div className='text-[#fff] text-[18px] ml-[4px] font-bold leading-[88px]'>LifemoreCommunity</div>
                 </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <Image src={facebook} alt='icon' className='ml-[20px]'/>
                         <Image src={linkedin} alt='icon' className='ml-[20px]'/>
                     </div>
-                    <div className='text-[#fff] text-[10px] lg:mt-[25px] mt-[15px] leading-[27px]'>info@lifemorecommunity.com</div>
+                    <div className='text-[#fff] lg:text-[12px] text-[9px] lg:mt-[25px] mt-[15px] leading-[27px]'>info@lifemorecommunity.com</div>
                 </div>
             </div>
             </div>

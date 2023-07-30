@@ -183,8 +183,8 @@ const Membership = () => {
             </div>
           </div>
           <div className="w-[100%] lg:h-[263px] lg:mb-[31px] bg-[#1c115c] mt-[32px] rounded-[5px] flex justify-center py-[25px] lg:py-[50px]">
-            <div className="w-[90%] max-w-7xl grid grid-cols-2">
-              <div className="w-[180px] lg:w-full">
+            <div className="w-[90%] max-w-7xl grid lg:grid-cols-2">
+              <div className="w-[90%] mx-auto lg:mx-[0] lg:w-full">
                 <div className="text-[30px] leading-[40.8px] lg:leading-[44.8px] text-[#FFFFFF] mb-[8.11px]">
                   Join Our Community
                 </div>
@@ -193,9 +193,9 @@ const Membership = () => {
                   our community.
                 </div>
               </div>
-              <div className="lg:flex justify-between space-y-[10px] lg:space-y-[0px] ml-[40px] lg:ml-[0px]">
+              <div className="flex justify-between">
                 <div>
-                  <div className="text-[#FFF] text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
                     50+
                   </div>
                   <div className="text-[#fff] text-[13px] leading-[19.6px]">
@@ -203,7 +203,7 @@ const Membership = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="text-[#FFF] text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
                     25k+
                   </div>
                   <div className="text-[#fff] text-[13px] leading-[19.6px]">
@@ -211,7 +211,7 @@ const Membership = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="text-[#FFF] text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
                     200
                   </div>
                   <div className="text-[#fff] text-[13px] leading-[19.6px]">
