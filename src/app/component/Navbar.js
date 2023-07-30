@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="lg:max-w-7xl lg:w-[100%] w-[90%]">
           <div className="flex items-center justify-between text-center lg:mt-[0px] mt-[20px]">
             <div className="flex z-[20]">
-              <Image src={cyclone} alt="icon" className="lg:w-[64px] lg:h-[74px] w-[44px] h-[64px] " />
+              <Image src={cyclone} alt="icon" className="w-[64px] lg:h-[74px] h-[64px] " />
               <div className="text-[#22366C] hidden lg:block text-[16px] lg:w-full w-[54%] mt-[12px] lg:mt-[0px] lg:text-[18px] font-bold lg:leading-[88px]">
                 Lifemore Global Community
               </div>
