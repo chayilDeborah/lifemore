@@ -71,7 +71,7 @@ const Membership = () => {
         <label for="email" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] ">Email address *</label>
         <input type="email" id="email" class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"  required/>
     </div> 
-    <div class="mb-6">
+    {/* <div class="mb-6">
     <label for="password" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "> Password *</label>
         <div className="relative  container">
       <input
@@ -122,8 +122,8 @@ const Membership = () => {
         )}
       </button>
     </div>
-    </div> 
-    <div class="mb-[45px]">
+    </div>  */}
+    {/* <div class="mb-[45px]">
         <label for="confirm_password" class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] ">Confirm password *</label>
         <div className="relative">
         <input
@@ -174,7 +174,7 @@ const Membership = () => {
         )}
         </span>
       </div>
-    </div>
+    </div> */}
     <button type="submit" className='bg-[#7537F6] text-[#fff] text-[14.56px] font-black leading-[18.216px] tracking-[1.159px] w-[273px] lg:w-[452px] hover:opacity-[0.699999988079071] rounded-[6px] mb-[100px] lg:mb-[200px] py-[15px]'>Sign up for Membership</button>
     </div>
                   </form>
