@@ -4,40 +4,46 @@ import Image from "next/image";
 import color from "../assets/color.svg";
 
 const Membership = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-  });
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("Sending");
 
-    // Send the form data to the server for processing (Nodemailer)
-    const response = await fetch("/api/sendEmail", {
+    let data = {
+      firstName,
+      lastName,
+      phone,
+      email,
+    };
+
+    fetch("/api/member", {
       method: "POST",
       headers: {
+        Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData),
-    });
-
-    if (response.ok) {
-      // Handle successful form submission (e.g., show success message)
-      console.log("Form submitted successfully!");
-    } else {
-      // Handle form submission error
-      console.error("Error submitting form.");
-    }
+      body: JSON.stringify(data),
+    })
+      .then((res) => {
+        console.log("Response received");
+        if (res.status === 200) {
+          console.log("Response succeeded!");
+          setSubmitted(true);
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setPhone("");
+        }
+      })
+      .catch((error) => {
+        console.error("Error occurred during form submission:", error);
+      });
+      console.log('Button clicked')
   };
 
   return (
@@ -71,10 +77,10 @@ const Membership = () => {
                 </div>
                 <div>
                   <form
-                    onSubmit={handleSubmit}
+                  
                     className="mt-[30px] lg:mt-[0px]"
                   >
-                    <div class="grid gap-6 mb-6 lg:grid-cols-2 w-[85%] mx-auto lg:mx-[0px] lg:w-[100%]">
+                    <div className="grid gap-6 mb-6 lg:grid-cols-2 w-[85%] mx-auto lg:mx-[0px] lg:w-[100%]">
                       <div>
                         <label
                           for="first_name"
@@ -85,31 +91,29 @@ const Membership = () => {
                         <input
                           type="text"
                           name="firstName"
-                          value={formData.firstName}
-                          onChange={handleChange}
-                          class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]"
+                          onChange={(e)=>{setFirstName(e.target.value)}}
+                          className="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]"
                           required
                         />
                       </div>
                       <div>
                         <label
                           for="last_name"
-                          class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "
+                          className="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "
                         >
                           Last name *
                         </label>
                         <input
                           type="text"
                           name="lastName"
-                          value={formData.lastName}
-                          onChange={handleChange}
-                          class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]"
+                          onChange={(e)=>{setLastName(e.target.value)}}
+                          className="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] pl-[10px] focus:border-[#A09CB9] block w-[273px] lg:w-[200px] h-[46px]"
                           required
                         />
                       </div>
                     </div>
                     <div className="w-[85%] mx-auto lg:mx-[0px] lg:w-[100%]">
-                      <div class="mb-6">
+                      <div className="mb-6">
                         <label
                           for="phone"
                           class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "
@@ -119,31 +123,30 @@ const Membership = () => {
                         <input
                           type="tel"
                           name="phone"
-                          value={formData.phone}
-                          onChange={handleChange}
-                          class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"
+                          onChange={(e)=>{setPhone(e.target.value)}}
+                          className="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"
                           // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                           required
                         />
                       </div>
-                      <div class="mb-6">
+                      <div className="mb-6">
                         <label
                           for="email"
-                          class="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "
+                          className="block mb-[9.19px] text-[13px] text-[#413972] leading-[14px] "
                         >
                           Email address *
                         </label>
                         <input
                           type="email"
                           name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          class="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"
+                          onChange={(e)=>{setEmail(e.target.value)}}
+                          className="bg-[#fff] border border-[#A09CB9]  rounded-[4px] focus:ring-[#413972] focus:border-[#A09CB9] block pl-[10px] w-[273px] lg:w-[452px] h-[46px]"
                           required
                         />
                       </div>
                       <button
                         type="submit"
+                        onClick={(e)=>{handleSubmit(e)}}
                         className="bg-[#7537F6] text-[#fff] text-[14.56px] font-black leading-[18.216px] tracking-[1.159px] w-[273px] lg:w-[452px] hover:opacity-[0.699999988079071] rounded-[6px] mb-[100px] lg:mb-[200px] py-[15px]"
                       >
                         Sign up for Membership
