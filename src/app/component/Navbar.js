@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
-import cyclone from "../assets/cyclone.svg";
+import logolife from "../assets/logolife.svg";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="lg:max-w-7xl lg:w-[100%] w-[90%]">
           <div className="flex items-center justify-between text-center lg:mt-[0px] mt-[20px]">
             <div className="flex z-[20]">
-              <Image src={cyclone} alt="icon" className="w-[64px] lg:h-[74px] h-[64px] " />
+              <Image src={logolife} alt="icon" className="w-[64px] lg:h-[74px] h-[64px] " />
               <div className="text-[#22366C] hidden lg:block text-[16px] lg:w-full w-[54%] mt-[12px] lg:mt-[0px] lg:text-[18px] font-bold lg:leading-[88px]">
                 Lifemore Global Community
               </div>
@@ -28,9 +28,9 @@ const Navbar = () => {
             </div>
             <div className="MOBILE-MENU flex lg:hidden">
               <div className="HAMBURGER-ICON space-y-2" onClick={() => setIsNavOpen((prev) => !prev)}>
-                <span className="block h-0.5 w-8 animate-pulse bg-[#22366C]"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-[#22366C]"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-[#22366C]"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-[#CD2785]"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-[#CD2785]"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-[#CD2785]"></span>
               </div>
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                 <div className="absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen(false)}>
