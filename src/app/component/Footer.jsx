@@ -33,11 +33,11 @@ const Footer = () => {
                 </div>
                 <div className='mx-auto text-center lg:text-left mt-[49px] lg:mt-[0px]'>
                     <div className='text-[#fff] lg:text-[15px] text-[20px] font-bold leading-[22.5px] tracking-[1.5px]'>CONNECT</div>
-                    <div className='flex mt-[30px] justify-center lg:justify-end'>
+                    {/* <div className='flex mt-[30px] justify-center lg:justify-end'>
                         <Image src={twitter} alt='icon' />
                         <Image src={facebook} alt='icon' className='ml-[20px]'/>
                         <Image src={linkedin} alt='icon' className='ml-[20px]'/>
-                    </div>
+                    </div> */}
                     <div className='text-[#fff] lg:text-[12px] text-[16px] lg:mt-[25px] mt-[15px] leading-[27px]'>info@lifemoreglobalcommunity.com</div>
                 </div>
             </div>
