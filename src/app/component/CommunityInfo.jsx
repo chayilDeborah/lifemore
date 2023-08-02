@@ -41,7 +41,7 @@ const CommunityInfo = () => {
                 </div>
             </div>
             <div className='flex justify-center mt-[50px] lg:mt-[60px]'>
-            <button className='text-[17px] leading-[18px] text-[#fff] py-[14px] px-[24px] mx-auto rounded-[4px] bg-[#7537F6] hover:opacity-[0.699999988079071]'>More About Our Community</button>
+            <button className='text-[17px] leading-[18px] text-[#fff] py-[14px] px-[24px] mx-auto rounded-[4px] bg-[#CD2785] hover:opacity-[0.699999988079071]'>More About Our Community</button>
             </div>
         </div>
     </div>

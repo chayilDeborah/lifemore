@@ -160,10 +160,10 @@ const Membership = () => {
           <div className="w-[100%] lg:h-[263px] lg:mb-[31px] bg-[#1c115c] mt-[32px] rounded-[5px] flex justify-center py-[25px] lg:py-[50px]">
             <div className="w-[90%] max-w-7xl grid lg:grid-cols-2">
               <div className="w-[90%] mx-auto lg:mx-[0] lg:w-full">
-                <div className="text-[30px] leading-[40.8px] lg:leading-[44.8px] text-[#FFFFFF] mb-[8.11px]">
+                <div className="text-[25px] lg:text-[30px] leading-[40.8px] lg:leading-[44.8px] text-[#FFFFFF] mb-[8.11px] text-center lg:text-left">
                   Join Our Community
                 </div>
-                <div className="text-[13px] text-[#fff] leading-[19.6px] lg:w-[317px] mb-[10px] lg:mb-[69px]">
+                <div className="text-[13px] text-center lg:text-left text-[#fff] leading-[19.6px] lg:w-[317px] mb-[10px] lg:mb-[69px]">
                   Help expand our members’ visibility and influence by joining
                   our community.
                 </div>

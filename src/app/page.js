@@ -19,16 +19,16 @@ const Home = () => {
                 <div className="hidden lg:block lg:mt-[200px] mt-[85px] mb-[10px] text-[#716B95] text-[12px] font-bold leading-[19.5px] tracking-[1.3px]">
                   OPPORTUNITIES . CONNECTIONS . GROWTH
                 </div>
-                <div className="text-[#22366C] lg:text-[70px] text-[50px] mt-[45px] lg:mt-[0px] font-bold leading-[55px] lg:leading-[88px] lg:w-[621px] text-center lg:text-left mb-[11.88px]">Join a <p>Network of </p><span className="text-[#7537F6] lg:text-[70px] text-[47px]">Game-Changers</span></div>
-                <div className="text-[#22366C] text-[17px] leading-[32.4px] lg:w-[493.5px] text-center lg:text-left">Welcome to Lifemore Global Community, a dynamic network of individuals from all walks of life who are committed to achieving their goals and supporting each other’s growth.</div>
-                <div className="lg:hidden lg:mt-[200px] lg:mt-[85px] mt-[20px] text-center lg:text-left mb-[10px] text-[#716B95] text-[12px] font-bold leading-[19.5px] tracking-[1.3px]">
+                <div className="text-[#22366C] lg:text-[70px] text-[40px] mt-[45px] lg:mt-[0px] font-bold leading-[52px] lg:leading-[88px] lg:w-[621px] mb-[11.88px]">Join a <p>Network of </p><span className="text-[#CD2785] lg:text-[70px] text-[40px]">Game-Changers</span></div>
+                <div className="text-[#22366C] text-[17px] leading-[32.4px] lg:w-[493.5px]">Welcome to Lifemore Global Community, a dynamic network of individuals from all walks of life who are committed to achieving their goals and supporting each other’s growth.</div>
+                <div className="lg:hidden lg:mt-[200px] lg:mt-[85px] mt-[20px] mb-[10px] text-[#716B95] text-[12px] font-bold leading-[19.5px] tracking-[1.3px]">
                   OPPORTUNITIES . CONNECTIONS . GROWTH
                 </div>
               </div>
               <Image src={people} alt='icon' className="lg:-ml-[86px] mt-[50px]"/>
             </div>
             <div className="flex justify-center lg:block mt-[40px] lg:mt-[0px]">
-            <button className="bg-[#7537F6] hover:opacity-[0.699999988079071] mx-auto absolute lg:-mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button>
+            <button className="bg-[#CD2785] hover:opacity-[0.699999988079071] mx-auto absolute lg:-mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button>
             </div>
             <AboutPreview />
             <CommunityInfo />

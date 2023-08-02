@@ -16,7 +16,7 @@ const AboutPreview = () => {
           <div className="text-[#22366C] text-[33px] text-center lg:text-left lg:text-[45px] leading-[48.8px] lg:leading-[52.8px] mb-[15.9px] lg:mb-[17.9px]">
             Connecting Minds, Empowering Growth.
           </div>
-          <div className="text-[#22366C] text-[17px] leading-[32.4px] lg:w-[492px] mb-[15.28px] lg:mb-[28.58px]">
+          <div className="text-[#22366C] text-[17px] text-center lg:text-left leading-[32.4px] lg:w-[492px] mb-[15.28px] lg:mb-[28.58px]">
             We believe in the power of connections. We understand that growth
             and success are not achieved in isolation, but through collaboration
             and support from a network of like-minded individuals.
