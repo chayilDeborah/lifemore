@@ -3,6 +3,7 @@ import logolife from '../assets/logolife.svg';
 import twitter from '../assets/twitter.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg'
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -17,11 +18,11 @@ const Footer = () => {
             <div className='lg:grid grid-cols-3 justify-between lg:w-[100%] w-[90%] mx-auto lg:mx-[0px] lg:grid-cols-3 lg:mt-[80px]  mb-[100px]'>
                 <div className='w-[70%] mx-auto lg:mx-[0px] text-center lg:text-left lg:w-full'>
                     <div className='text-[#fff] lg:text-[15px] text-[20px] font-bold leading-[22.5px] tracking-[1.5px] mt-[49px] lg:mt-[0px]'>MENU</div>
-                    <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[25px] leading-[27px]'>Home</div>
-                    <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>About Us</div>
-                    <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Events</div>
-                    <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Gallery</div>
-                    <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Contact</div>
+                   <Link href="/"> <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[25px] leading-[27px]'>Home</div></Link>
+                   <Link href="/about"> <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>About Us</div></Link>
+                   <Link href="/events"> <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Events</div></Link>
+                   <Link href="/events"> <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Gallery</div></Link>
+                   <Link href="/contact"> <div className='text-[#fff] lg:text-[14px] text-[16px] mt-[10px] leading-[27px]'>Contact</div></Link>
                 </div>
                 <div className='w-[85%] lg:w-full mx-auto lg:mx-[0px] text-center lg:text-left mt-[49px] lg:mt-[0px]'>
                     <div className='text-[#fff] lg:text-[15px] text-[20px] font-bold leading-[22.5px] tracking-[1.5px]'>CONTACT US</div>
