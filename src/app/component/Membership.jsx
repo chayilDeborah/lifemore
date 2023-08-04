@@ -52,15 +52,15 @@ const Membership = () => {
               <div className="flex justify-between">
                 <div>
                   <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
-                    50+
+                    8
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
-                    Communities
+                    Countries
                   </div>
                 </div>
                 <div>
                   <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
-                    25k+
+                    1k
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
                     Members to date
@@ -68,7 +68,7 @@ const Membership = () => {
                 </div>
                 <div>
                   <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
-                    200
+                    10
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
                     Team Members
