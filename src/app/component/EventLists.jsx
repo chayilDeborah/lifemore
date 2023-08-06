@@ -11,7 +11,7 @@ const EventLists = () => {
     <>
       <div className="flex justify-center">
         <div className="max-w-7xl w-[100%]">
-          <div>
+          <div id="year2022">
             <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] mt-[60px] lg:mt-[112px] mb-[24px] ml-[20%] lg:ml-[60px]">
               Year 2022
             </div>
@@ -33,7 +33,7 @@ const EventLists = () => {
               />
             </div>
           </div>
-          <div>
+          <div id="year2023">
             <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] lg:mt-[112px] mt-[50px] mb-[24px] lg:ml-[60px] ml-[20%]">
               Year 2023
             </div>

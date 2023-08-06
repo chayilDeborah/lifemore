@@ -5,6 +5,7 @@ import bulb from '../assets/connect.svg';
 import chat from '../assets/chat.svg';
 import star from '../assets/star.svg';
 import check from '../assets/check.svg'
+import Link from 'next/link';
 
 const CommunityInfo = () => {
   return (
@@ -41,7 +42,7 @@ const CommunityInfo = () => {
                 </div>
             </div>
             <div className='flex justify-center mt-[50px] lg:mt-[60px]'>
-            <button className='text-[17px] leading-[18px] text-[#fff] py-[14px] px-[24px] mx-auto rounded-[4px] bg-[#CD2785] hover:opacity-[0.699999988079071]'>More About Our Community</button>
+            <button className='text-[17px] leading-[18px] text-[#fff] py-[14px] px-[24px] mx-auto rounded-[4px] bg-[#CD2785] hover:opacity-[0.699999988079071]'><Link href="/about">More About Our Community</Link></button>
             </div>
         </div>
     </div>
