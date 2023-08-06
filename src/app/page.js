@@ -5,6 +5,7 @@ import AboutPreview from "./component/AboutPreview";
 import CommunityInfo from "./component/CommunityInfo";
 import Membership from "./component/Membership";
 import Footer from "./component/Footer";
+import Link from "next/link";
 
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
               <Image src={people} alt='icon' className="lg:-ml-[86px] mt-[50px]"/>
             </div>
             <div className="flex justify-center lg:block mt-[40px] lg:mt-[0px]">
-            <button className="bg-[#CD2785] hover:opacity-[0.699999988079071] mx-auto absolute lg:-mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button>
+            <Link href="#membership"><button className="bg-[#CD2785] hover:opacity-[0.699999988079071] mx-auto lg:absolute lg:-mt-[169px] rounded-[4px] text-[17px] text-[#fff] leading-[18px] py-[14px] px-[21px]">Join The Community</button></Link>
             </div>
             <AboutPreview />
             <CommunityInfo />

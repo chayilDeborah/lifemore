@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#CD2785] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px]"><Link href="/about">About Us</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#CD2785] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px]"><Link href="/events">Events</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#CD2785] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px]"><Link href="/contact">Contact</Link></div> 
-                <button className="bg-[#CD2785] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1]">Join Us</button>
+                <button className="bg-[#CD2785] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1]"><Link href="#membership">Join Us</Link></button>
             </div>
             <div className="MOBILE-MENU flex lg:hidden">
               <div className="HAMBURGER-ICON space-y-2" onClick={() => setIsNavOpen((prev) => !prev)}>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/about">About Us</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/events">Events</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/contact">Contact</Link></div> 
-                <Link href="#membership"><button className="bg-[#CD2785] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1] transition duration-300">Join Us</button></Link>
+                <button className="bg-[#CD2785] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1] transition duration-300"><Link href="#membership">Join Us</Link></button>
             </div>
                 {/* <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">

@@ -51,7 +51,7 @@ const Membership = () => {
               </div>
               <div className="flex justify-between">
                 <div>
-                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center text-[30px] lg:text-[44px] leading-[67.2px]">
                     8
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
@@ -59,7 +59,7 @@ const Membership = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center text-[30px] lg:text-[44px] leading-[67.2px]">
                     1k
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
@@ -67,7 +67,7 @@ const Membership = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="text-[#FFF] text-center lg:text-left text-[30px] lg:text-[44px] leading-[67.2px]">
+                  <div className="text-[#FFF] text-center text-[30px] lg:text-[44px] leading-[67.2px]">
                     10
                   </div>
                   <div className="text-[#fff] text-[12px] lg:text-[13px] leading-[19.6px]">
