@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logolife from '../assets/logolife.svg';
+import lifelogo from '../assets/lifelogo.png';
 import twitter from '../assets/twitter.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg'
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='max-w-7xl w-[100%]'>
             <div className='lg:flex lg:w-[100%] w-[95%] mx-auto lg:justify-evenly'>
                 <div className='hidden lg:flex lg:justify-center lg:w-[100%] w-[90%] mx-auto lg:mx-[0px] lg:mt-[80px] mt-[50px] lg:mb-[0px] mb-[20px] items-center lg:items-start'>
-                    <Image src={logolife} alt='icon' className='h-[80px]'/>
+                    <Image src={lifelogo} alt='icon' className='h-[80px] w-[80px]'/>
                     <div className='text-[#fff] text-[18px] ml-[4px] font-bold leading-[88px]'>Lifemore Global Community</div>
                 </div>
             <div className='lg:grid grid-cols-3 justify-between lg:w-[100%] w-[90%] mx-auto lg:mx-[0px] lg:grid-cols-3 lg:mt-[80px]  mb-[100px]'>

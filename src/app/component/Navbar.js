@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
-import logolife from "../assets/logolife.svg";
+import lifelogo from "../assets/lifelogo.png";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="lg:max-w-7xl lg:w-[100%] w-[90%]">
           <div className="flex items-center justify-between text-center lg:mt-[0px] mt-[20px]">
             <div className="flex z-[20]">
-              <Image src={logolife} alt="icon" className="w-[64px] lg:h-[74px] h-[64px] " />
+              <Image src={lifelogo} alt="icon" className="w-[64px] lg:w-[74px] lg:h-[74px] h-[64px] z-20" />
               <div className="text-[#CD2785] hidden lg:block text-[16px] lg:w-full w-[54%] mt-[12px] lg:mt-[0px] lg:text-[20px] font-bold lg:leading-[88px]">
                 Lifemore Global Community
               </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/about">About Us</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/events">Events</Link></div>
                 <div className="text-[#22366C] text-[20px] leading-[32.4px] hover:bg-[#7537F6] hover:opacity-[0.699999988079071] hover:text-[#fff] cursor-pointer hover:px-[12px] hover:py-[8px] transition duration-300"><Link href="/contact">Contact</Link></div> 
-                <button className="bg-[#7537F6] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1] transition duration-300">Join Us</button>
+                <Link href="#membership"><button className="bg-[#CD2785] text-[#fff] text-[20px] leading-[32.4px] opacity-[0.699999988079071] px-[24px] py-[16px] hover:text-[white] hover:bg-[#7537F6] hover:opacity-[1] transition duration-300">Join Us</button></Link>
             </div>
                 {/* <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
