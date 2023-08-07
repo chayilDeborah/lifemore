@@ -52,9 +52,6 @@ const Contact = () => {
               <div className="text-[#22366C] text-[48px] font-bold leading-[120%] mx-auto text-center mb-[14px] lg:mb-[24px] ">
                 Contact Us
               </div>
-              <div className="text-[#22366C] text-[18px] leading-[150%] text-center mb-[38px] lg:mb-[48px] w-[90%] lg:w-[100%] mx-auto lg:mx-[0]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-              </div>
               <div className="mx-auto">
                 <iframe
                   src="https://docs.google.com/forms/d/e/1FAIpQLSeSDpeJYLpUdQtilvwaqLdfirYkb39XaNDXTDKhtMU2SrHgyQ/viewform?embedded=true"

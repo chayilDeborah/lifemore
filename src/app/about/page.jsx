@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex w-[90%] lg:w-[100%] mx-auto lg:mx-[0] lg:mt-[112px] flex-col-reverse lg:flex-row lg:mb-[100px]">
             <Image src={illustrate} alt='icon' className='lg:mr-[72.7px]'/>
             <div>
-              <div className='text-[#716B95] text-[12px] leading-[19.5px] tracking-[1.3px] mt-[39px] '>ABOUT LIFEMORE COMMUNITY</div>
+              <div className='text-[#716B95] text-[12px] leading-[19.5px] tracking-[1.3px] mt-[39px] '>ABOUT LIFEMORE GLOBAL COMMUNITY</div>
               <div className="text-[#22366C]  text-[33px]  lg:text-[45px] leading-[48.8px] lg:leading-[52.8px] mb-[15.9px] lg:mb-[17.9px] lg:w-[565px]">
                  Connecting Minds, Empowering Growth.
               </div>
