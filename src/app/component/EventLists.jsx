@@ -60,7 +60,7 @@ const EventLists = () => {
                       To register for the Conference, click the link below
                     </div>
                     <div className="w-[69%] lg:w-[100%] mx-auto lg:mx-[0px]">
-                    <Link href="https://docs.google.com/forms/d/1dsou98yy-7SNP16mJrVPNMAq-8vRmFN4RvA_a5Tx9v8/edit?pli=1" className="text-[#22366C] text-[16px] lg:text-[18px]  hover:opacity-[0.699999988079071] underline-offset-4">
+                    <Link href="https://docs.google.com/forms/d/1dsou98yy-7SNP16mJrVPNMAq-8vRmFN4RvA_a5Tx9v8/edit?pli=1" className="text-[#22366C] w-[69%] text-[16px] lg:text-[18px]  hover:opacity-[0.699999988079071] underline-offset-4">
                       https://docs.google.com/forms/d/1dsou98yy-7SNP16mJrVPNMAq-8vRmFN4RvA_a5Tx9v8/edit?pli=1
                     </Link>
                     </div>
