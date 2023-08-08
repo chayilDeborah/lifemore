@@ -11,7 +11,7 @@ const Events = () => {
       <Navbar />
       <div className="flex justify-center mt-[15px] lg:mt-[0px]">
         <div className=" w-[100%]">
-          <div className="h-screen bg-[url('https://res.cloudinary.com/dmye53wps/image/upload/v1690471382/events_rahcty.jpg')] bg-cover bg-center w-full mt-[20px]">
+          <div className="h-screen bg-[url('https://res.cloudinary.com/dmye53wps/image/upload/v1690471382/events_rahcty.jpg')] bg-cover bg-center w-full">
             <div className="w-full h-full flex items-end bg-blue-600/30 bg-gradient-to-r from-[#22366C] to-[] lightgray 50% backdrop-brightness-75 bg-gradient-to-l">
               <div className="pt-[25%] lg:w-full w-[90%] mx-auto lg:mx-[0px]">
                 <div className="lg:text-[56px] text-[50px] font-bold leading-[100%] lg:leading-[120%] text-[white] mb-[15px] lg:mb-[24px]">Our Events</div>
