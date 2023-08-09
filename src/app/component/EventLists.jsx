@@ -12,7 +12,7 @@ const EventLists = () => {
       <div className="flex justify-center">
         <div className="max-w-7xl w-[100%]">
           <div id="year2022">
-            <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] mt-[60px] lg:mt-[112px] mb-[24px] lg:ml-[20%] text-center lg:text-left">
+            <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] mt-[60px] lg:mt-[112px] mb-[24px] lg:ml-[60px] text-center lg:text-left">
               Year 2022
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1 mx-auto lg:mx-[0px] space-y-[45px] lg:space-y-[0px]">
@@ -34,7 +34,7 @@ const EventLists = () => {
             </div>
           </div>
           <div id="year2023">
-            <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] lg:mt-[112px] mt-[50px] mb-[24px] text-center lg:text-left lg:ml-[20%]">
+            <div className="text-[#22366C] text-[30px] lg:text-[48px] font-bold leading-[120%] lg:mt-[112px] mt-[50px] mb-[24px] text-center lg:text-left lg:ml-[60px]">
               Year 2023
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1">
